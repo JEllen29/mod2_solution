@@ -1,0 +1,105 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	
+}
+
+h1{
+  text-align:center;
+  margin-top: 2%;
+  font-size: 175%;
+
+}
+
+.box > div{
+  background-color:#f5f3ee;
+  border: 3px solid #000000;
+  float:left;
+}
+ 
+h2{
+  width: auto;
+  text-align: center;
+  width: 30%;
+  position:relative;
+  top:0%;
+  left:70%;
+  border-left: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+
+h2.Gouda{
+  background-color: #c3e047;
+}
+
+h2.Asiago{
+  background-color:#f7d0c5;
+}
+
+h2.Manchego{
+  background-color:#22b092;
+}
+
+
+body{
+  background-color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+  text-align:left;
+  margin: 5px;
+ 
+}
+
+	/* Large Screen*/
+@media (min-width: 992px) {
+
+  .box >div{
+    width:31%;
+      margin-left:1%;
+      margin-top: 3%;
+  }
+
+}
+
+  /* Med Screen*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .container1, .container2 {
+    width: 48%;
+    margin-top:3%;
+    margin-left:1%;
+  }
+  .container3 {
+    width: 97%;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-right: 1%;
+  }
+}
+
+   /* Small Screen*/
+@media (max-width: 767px) {
+  .container1 {
+    width: 98%;
+    margin:1%;
+  }
+  .container2 {
+    width: 98%;
+    margin:1%;
+  }
+  .container3 {
+    width: 98%;
+    margin:1%;
+  }
+} 
+
+
+
+
+
+
+
+
+
